@@ -1,0 +1,169 @@
+* {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: black;
+  color: white;
+}
+
+.intro{
+text-align: center;
+margin-top: 350px;
+margin-bottom: 25px;
+}
+.san{
+  color: red;
+  font-weight: normal;
+}
+
+.intro2{
+  text-align: center;
+  margin-top: px;
+  margin-bottom: 400px;
+}
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: fixed;
+  top: 1%;
+  width: 100%;
+  background-color: black;
+  padding: 20px 50px;
+  z-index: 1000;
+}
+
+/* Logo (placeholder) */
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-bottom: 6px;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: color 0.5s;
+}
+
+.nav-links a:hover {
+  color: red;
+}
+
+.abt-me{
+  color:red;
+  text-align: center;
+}
+.img{
+    border-radius: 2000px;
+    width: 350px;
+    height: 350px;
+    align: center;
+    object-fit: cover;
+}
+
+.img-div{
+    display: flex;
+    align-items: bottom;
+    justify-content: bottom;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-left: 350px;
+    gap:20px;
+    cursor:pointer;
+}
+
+.text-beside-img{
+background-color: white;
+  color: black;
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  text-align: left;
+  margin-top:100px;
+}
+
+.projects{
+  color: red;
+  font-size: 29px;
+  margin-left: 13px;
+  text-align: center;
+  margin-top: 470px;
+  margin-bottom: px;
+}
+
+.content-under-projects{
+  margin-left: 99px;
+  margin-top: 20px;
+  margin-right: 99px;
+}
+
+.pre-sec{
+  text-align: center;
+}
+
+.exper{
+  color:red;
+  text-align: center;
+  margin-top: 590px;
+}
+
+.content-under-experience{
+  margin-left:99px;
+  margin-right:99px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.certification{
+color:red;
+text-align: center;
+margin-bottom: 25px;
+margin-top: 300px;
+}
+
+.content-under-certification{
+text-align: center;
+}
+
+.pre-certi{
+  font-size: 17px;
+  font-family:'Times New Roman', Times, serif;
+
+}
+.contact-me{
+  text-align: center;
+  color:red;
+  margin-top: 650px;
+  margin-bottom: 25px;
+}
+
+.content-under-contact-me{
+  text-align: center;
+
+}
+
